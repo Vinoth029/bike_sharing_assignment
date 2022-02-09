@@ -44,7 +44,7 @@ We are required to model the demand for shared bikes with the available independ
 
 - Count vs Month
     - counts are higher in the middle of the months. Especially in case of Non-Registered users.
-    ![](Graphs\months.png)
+    ![](Graphs/months.png)
 
 - Count vs Different Seasons
     - Fall Season has the higher no of counts and spring season has the lower no of counts.
@@ -52,8 +52,7 @@ We are required to model the demand for shared bikes with the available independ
     - Approx 70% of the data are work days and 30% of the data are leave days(holiday and weekend) but still we can't see much difference. Hence we can say that in a year the proportion of total count for the bike rental is 50-50 for leave days and work days.
     - Only 2.87% of data are represending the holidays. Even with that low number of days we could see that count is higher in fall season (Autumn - Pleasant Environment) compared with weekdays which is the remaining 97% of days in a year.
     ![](Graphs/seasons1.png)
-    ![](Graphs/seasons2.png)
-    ![](Graphs/seasons3.png)
+
 
 
 
