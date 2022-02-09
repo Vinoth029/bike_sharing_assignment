@@ -19,7 +19,7 @@ We are required to model the demand for shared bikes with the available independ
 ## Table of Contents
 * [Basic Info](#Basic-information)
 * [Exploratory Data Analysis](#exploratory-data-analysis)
-* [Technologies Used](#technologies-used)
+* [Model Building](#model-building)
 * [Conclusions](#conclusions)
 * [Acknowledgements](#acknowledgements)
 
@@ -53,8 +53,22 @@ We are required to model the demand for shared bikes with the available independ
     - Only 2.87% of data are represending the holidays. Even with that low number of days we could see that count is higher in fall season (Autumn - Pleasant Environment) compared with weekdays which is the remaining 97% of days in a year.
     ![](Graphs/seasons1.png)
 
+- Count vs Weather
+    - Comparatively in 2019, count is higher. Under variour weather conditions Its obvious that in clear weather condition count is higher but still from the above graph and calculation its very clear that the data we hold for clear is higher in comparision with light rain.
+    - Once again its proving except in the case of light rain, though holiday is just about 30% and the remaining 70% are working day under Mist and Clear weather condition count is almost similar.
+    - Unlike Seasons, Across different weather conditions count is comparetively lower in the holidays but still holidays hold only around 3% of days in a year.
+    ![](Graphs/weather1.png)
+    ![](Graphs/weather2.png)
+    ![](Graphs/weather3.png)
+    ![](Graphs/weather4.png)
+
+- Count vs Temperature, Humidity and Windspeed
+    - From the below graphs we can understand that temperature is positively co-related with the count where as humidity is slightly negatively co-related and windspeed is negatively co-related.
+    ![](Graphs/temp, hum and windspeed.png)
 
 
+## Model Building 
+- Data Preparation
 
 
 
