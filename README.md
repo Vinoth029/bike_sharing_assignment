@@ -102,10 +102,8 @@ We are required to model the demand for shared bikes with the available independ
 ## Model Building 
 Several Model building attemps were made and finally came up with good model with all features having very low VIF (less than 5) and very low P-Value(less than 0.05)  
 
-    ```
     Count = 0.261(Const) + 0.238(Year) + 0.400(Temp) - 0.153(windspeed) - 0.082(Spring) + 0.037(Summer) + 0.104(Winter) - 0.057(Dec) - 0.050(Jan) + 0.034(Jun) - 0.069(Nov) + 0.059(Sep) - 0.029(Mon) - 0.041(Sun) - 0.272(Light Rain) - 0.078(Mist)
     
-    ```
 
 
 
