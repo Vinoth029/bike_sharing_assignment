@@ -44,7 +44,7 @@ We are required to model the demand for shared bikes with the available independ
 
 - Count vs Month
     - counts are higher in the middle of the months. Especially in case of Non-Registered users.
-    ![](Graphs/months.png)
+    ![](Graphs\months.png)
 
 - Count vs Different Seasons
     - Fall Season has the higher no of counts and spring season has the lower no of counts.
