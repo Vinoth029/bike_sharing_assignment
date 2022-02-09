@@ -156,4 +156,4 @@ As the model prediction is quite higher and it performed well on the test data s
 
 
 ## Contact
-Created by [Vinoth029@githubusername](https://www.linkedin.com/in/vinoth-k-84080b156/)- feel free to contact me!
+Created by [Linked In](https://www.linkedin.com/in/vinoth-k-84080b156/)- feel free to contact me!
