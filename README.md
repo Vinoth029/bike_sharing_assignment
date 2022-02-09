@@ -21,8 +21,10 @@ We are required to model the demand for shared bikes with the available independ
 * [Exploratory Data Analysis](#exploratory-data-analysis)
 * [Data Preparation](#data-preparation)
 * [Model Building](#model-building)
+* [Residual Analysis](#residual-analysis)
+* [Prediction and Evaluation](#prediction-and-evaluation)
 * [Conclusions](#conclusions)
-* [Acknowledgements](#acknowledgements)
+
 
 ## Basic Information
 - General information
@@ -103,9 +105,36 @@ We are required to model the demand for shared bikes with the available independ
 Several Model building attemps were made and finally came up with good model with all features having very low VIF (less than 5) and very low P-Value(less than 0.05)  
 
     Count = 0.261(Const) + 0.238(Year) + 0.400(Temp) - 0.153(windspeed) - 0.082(Spring) + 0.037(Summer) + 0.104(Winter) - 0.057(Dec) - 0.050(Jan) + 0.034(Jun) - 0.069(Nov) + 0.059(Sep) - 0.029(Mon) - 0.041(Sun) - 0.272(Light Rain) - 0.078(Mist)
-    
 
+## Residual Analysis
+- Verifying whether the error terms are normally distributed
 
+    ![](Graphs/ra1.png)
+
+Just like we expected the error terms (residuals) are normally distributed.
+
+- Verifying the error terms having constant variance accross different independent variables and they do not follow any pattern
+
+    ![](Graphs/ra2.png)
+    ![](Graphs/ra3.png)
+    ![](Graphs/ra4.png)
+    ![](Graphs/ra5.png)
+    ![](Graphs/ra6.png)
+
+Just like we expected error terms having constant variance and they do not follow any pattern. So lets predict and evalute the model.
+
+## Prediction and Evaluation
+Model prediction on the test data set is quite good as that of train data set. Both having more that 80 % R2 Value.
+
+```python 
+
+r2_score(y_true=y_train, y_pred=y_train_pred)
+0.8456620899385177
+
+r2_score(y_true=y_test, y_pred=y_test_pred)
+0.8047821128977493
+
+```
 
 ## Conclusions
 - Conclusion 1 from the analysis
