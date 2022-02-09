@@ -39,11 +39,13 @@ We are required to model the demand for shared bikes with the available independ
 ## Exploratory Data Analysis
 - Count vs Weekday
     - On Weekends, the Non-Registered users are very high.
-    - On weekdays, the Registered users are high
+    - On weekdays, the Registered users are high.
+
     ![](Graphs/weekdays.png)
 
 - Count vs Month
     - counts are higher in the middle of the months. Especially in case of Non-Registered users.
+
     ![](Graphs/months.png)
 
 - Count vs Different Seasons
@@ -51,20 +53,21 @@ We are required to model the demand for shared bikes with the available independ
     - Counts are very higher in 2019 then 2018.
     - Approx 70% of the data are work days and 30% of the data are leave days(holiday and weekend) but still we can't see much difference. Hence we can say that in a year the proportion of total count for the bike rental is 50-50 for leave days and work days.
     - Only 2.87% of data are represending the holidays. Even with that low number of days we could see that count is higher in fall season (Autumn - Pleasant Environment) compared with weekdays which is the remaining 97% of days in a year.
+
     ![](Graphs/seasons1.png)
 
 - Count vs Weather
     - Comparatively in 2019, count is higher. Under variour weather conditions Its obvious that in clear weather condition count is higher but still from the above graph and calculation its very clear that the data we hold for clear is higher in comparision with light rain.
     - Once again its proving except in the case of light rain, though holiday is just about 30% and the remaining 70% are working day under Mist and Clear weather condition count is almost similar.
     - Unlike Seasons, Across different weather conditions count is comparetively lower in the holidays but still holidays hold only around 3% of days in a year.
-    ![](Graphs/weather1.png)
+
     ![](Graphs/weather2.png)
-    ![](Graphs/weather3.png)
-    ![](Graphs/weather4.png)
+   
 
 - Count vs Temperature, Humidity and Windspeed
     - From the below graphs we can understand that temperature is positively co-related with the count where as humidity is slightly negatively co-related and windspeed is negatively co-related.
-    ![](Graphs/temp, hum and windspeed.png)
+
+    ![](Graphs/temp_hum_temp.png)
 
 
 ## Model Building 
