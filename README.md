@@ -137,10 +137,22 @@ r2_score(y_true=y_test, y_pred=y_test_pred)
 ```
 
 ## Conclusions
-- Conclusion 1 from the analysis
-- Conclusion 2 from the analysis
-- Conclusion 3 from the analysis
-- Conclusion 4 from the analy
+As the model prediction is quite higher and it performed well on the test data set. we can know conclude the significant variable.
+
+- Most Significant Variables are:
+    - Temperature 
+    - Year
+    - Clear Weather condition
+    - Fall Season
+- Some other Significant Variables are:
+    - Middle of the months
+    - Holidays
+    - Winter
+
+- The Variables that are affecting the demands are:
+    - Windspeed
+    - Start and End of the months
+    - Rain
 
 
 ## Contact
