@@ -72,31 +72,31 @@ We are required to model the demand for shared bikes with the available independ
 
 
 ## Data Preparation
-    - Dropping the below variables as they are not required for modeling.
-        - 'Casual'
-        - 'Registered'
-        - 'Count'
+- Dropping the below variables as they are not required for modeling.
+    - 'Casual'
+    - 'Registered'
+    - 'Count'
 
-    - Creating dummy variables for the below columns
-        - 'Season'
-        - 'Month'
-        - 'Weekday'
-        - 'Weather'
+- Creating dummy variables for the below columns
+    - 'Season'
+    - 'Month'
+    - 'Weekday'
+    - 'Weather'
 
-    - Dropping the below variables as we don't need anymore.
-        - Friday is dropped
-        - Fall season is dropped
-        - Apr is dropped
-        - Clear is dropped
+- Dropping the below variables as we don't need anymore.
+    - Friday is dropped
+    - Fall season is dropped
+    - Apr is dropped
+    - Clear is dropped
 
-    - Train Test Split 
-        - 70% as training data
-        - 30% as test data
+- Train Test Split 
+    - 70% as training data
+    - 30% as test data
 
-    - Data Analysis
-         ![](Graphs/analysis1.png)
-         ![](Graphs/analysis2.png)
-         ![](Graphs/analysis3.png)
+- Data Analysis
+    ![](Graphs/analysis1.png)
+    ![](Graphs/analysis2.png)
+    ![](Graphs/analysis3.png)
 
 ## Model Building 
     - Total 
