@@ -40,17 +40,17 @@ We are required to model the demand for shared bikes with the available independ
 - Count vs Weekday
     - On Weekends, the Non-Registered users are very high.
     - On weekdays, the Registered users are high
-    ![](C:\Users\vinot\Git\bike_sharing_assignment\Graphs\weekdays.png)
+    ![](Graphs\weekdays.png)
 
 - Count vs Month
     - counts are higher in the middle of the months. Especially in case of Non-Registered users.
-    ![](C:\Users\vinot\Git\bike_sharing_assignment\Graphs\months.png)
+    ![](Graphs\months.png)
 
 - Count vs Different Seasons
     - Fall Season has the higher no of counts.
     - spring season has the lower no of counts.
     - Counts are very higher in 2019 then 2018.
-    ![](C:\Users\vinot\Git\bike_sharing_assignment\Graphs\seasons.png)
+    ![](Graphs\seasons.png)
 
 
 
