@@ -94,6 +94,7 @@ We are required to model the demand for shared bikes with the available independ
     - 30% as test data
 
 - Data Analysis
+
     ![](Graphs/analysis1.png)
     ![](Graphs/analysis2.png)
     ![](Graphs/analysis3.png)
